@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+ 
+
+  <title>RE-LIFE</title>
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+    .why-us .content {
+      padding: 30px;
+      background: #337AB7;
+      border-radius: 4px;
+      color: #fff;
+    }
+    
+    .why-us .content h3 {
+      font-weight: 700;
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+    
+    .why-us .content p {
+      margin-bottom: 30px;
+    }
+    
+    .why-us .content .more-btn {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 6px 30px 8px 30px;
+      color: #fff;
+      border-radius: 50px;
+      transition: all ease-in-out 0.4s;
+    }
+    
+    .why-us .content .more-btn i {
+      font-size: 14px;
+    }
+    
+    .why-us .content .more-btn:hover {
+      color: #32a4ac;
+      background: #fff;
+    }
+    
+    .why-us .icon-boxes .icon-box {
+      text-align: center;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+      padding: 40px 30px;
+      width: 100%;
+    }
+    
+    .why-us .icon-boxes .icon-box i {
+      font-size: 40px;
+      color: rgb(18, 122, 207);
+      margin-bottom: 30px;
+    }
+    
+    .why-us .icon-boxes .icon-box h4 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 0 30px 0;
+    }
+    
+    .why-us .icon-boxes .icon-box p {
+      font-size: 15px;
+      color: #848484;
+    }
+
+    .section {
+      padding: 80px 0;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+    }
+    .divider {
+      width: 100px;
+      border-top: 3px solid #bbb;
+      margin: 0 auto 30px;
+    }
+    .card {
+      border: none;
+      background-color: rgb(18, 122, 207);
+    }
+    .card-body {
+      text-align: center;
+      background-color: #6398c5;
+    }
+    .card-text {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    .fa-3x {
+      font-size: 3em;
+    }
+
+    
+  </style>
+  <title>relife</title>
+</head>
+
+<body>
+  {% include "hospital/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert ' style="margin-bottom:0px;">WELCOME TO RE-LIFE HOSPITALS</h3>
+    <p>Re-Life Hospital is one of the biggest largest private Hospital in Bangalore, Karnataka.</p>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+
+<section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Why Choose Re-Life?</h3>
+              <p>
+                Re-Life Hospital is a mid-sized multi-specialty, hospital conceived with an aim to deliver 
+advanced and affordable healthcare to the community at large. Its deep-rooted 
+commitment to imparting quality service at every stage is its winning factor in the success. 
+The hospital has an excellent infrastructure backed by latest technology 
+supported by a team of highly qualified doctors providing special attention to patient care. 
+
+           
+              </p>
+              {% comment %} <div class="text-center">
+                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div> {% endcomment %}
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Trusted Doctors</h4>
+                    <p> Our Re-Life hospital utilizes state-of-the-art technology and employs a team of true experts.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Emergency Treatment</h4>
+                    <p>On the other hand we denounce with righteous indignation and dislik men who are so beguiled.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4>24/7 Services</h4>
+                    <p>We can learn to rebuild and sustain confidence through its natural ebbs and flow life.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="section-title">Our Services</h2>
+            <hr class="divider my-4">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <div class="card-body">
+                <i class="fas fa-hospital-alt fa-3x mb-3"></i>
+                <h3 class="mb-3">Outdoor Service</h3>
+                <p class="card-text">There is an outdoor treatment section in Relife Hospital for regular health checkups of different disease.</p>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <div class="card-body">
+                <i class="fas fa-user-md fa-3x mb-3"></i>
+                <h3 class="mb-3">Medical Services</h3>
+                <p class="card-text">We provide a range of medical services including diagnostic imaging, laboratory testing, and inpatient care.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <div class="card-body">
+                <i class="fas fa-stethoscope fa-3x mb-3"></i>
+                <h3 class="mb-3">Health Check up</h3>
+                <p class="card-text"> At Relife Hospital, our core mission is to provide the best outcome for every patient entrusted to our care.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <div class="card-body">
+                <i class="fas fa-ambulance fa-3x mb-3" ></i>
+                <h3 class="mb-3">24 hours Emergency Service</h3>
+                <p class="card-text"> The Department of Accident and Emergency Care at Re-life Hospitals treats everything with the same care.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <div class="card-body">
+                <i class="fas fa-medkit fa-3x mb-3"></i>
+                <h3 class="mb-3">24 hours Pharmacy Service</h3>
+                <p class="card-text">  It is necessary for a patient to take the prescribed medication at the correct dose on time as advised by the doctor. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <div class="card-body">
+                <i class="fas fa-heartbeat fa-3x mb-3"></i>
+                <h3 class="mb-3">Specialized Operation Theatre</h3>
+                <p class="card-text"> An operation theatre (OT), is a hospital unit where major and minor life-saving surgical procedures are performed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+<br><br><br><br>
+   
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/" role="button"> Back to HOME PAGE</a>
+    </p>
+  </div>
+  {% include "hospital/footer.html" %}
+</body>
+\
+
+</html>
